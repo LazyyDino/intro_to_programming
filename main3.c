@@ -1,11 +1,12 @@
-#include <stdio.h>
-
+#include  <stdio.h>
+ 
 int main()
 {
-         int i = 0;
-         while (i < 5) {
-                   printf (" %\n", i );
-                   i = i++;
-          } 
-     return 0;
+int count;
+  for (count = 0; count <= 100;) {
+ int i = 0;
+        printf ("%d\n", i);
+        i = i + 2;
+  }
+  return 0;
 }
